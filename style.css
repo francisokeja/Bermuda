@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+HEADER{
+    background-image: url(bermuda-t.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    }
+
+ul li a:hover{
+    color: white;
+    background-color:teal;
+    transition: 0.6s ease;
+}
+ul li.active a{
+    color:rgb(15, 207, 191);
+    background-color:teal;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 22%;
+}
+.title h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    position: relative;
+    left: 29%;
+}
+p1{
+    font-family: serif;
+    font-size: 120%;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: white;
+}
+p2{
+    font-family: serif;
+    font-size: 120%;
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    color: white;
+
+}
+p3{
+    position: absolute;
+    left: 38%;
+    margin-top: 33%;
+    padding: 10px;
+    text-decoration: none;
+    border:1px solid teal;
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+    width: 20%;
+    
+}
+p3 a{
+    text-decoration: none;
+    color: white;
+}
+p3 a:hover{
+    color: black;
+    background-color: teal;
+    transition: 0.5s ease-in;
+}
+
+
